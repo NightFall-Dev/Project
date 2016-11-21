@@ -409,6 +409,64 @@
 			<Tool
 				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
+		<Configuration
+			Name="Release_A_ALL|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				FavorSizeOrSpeed="0"
+				OmitFramePointers="TRUE"
+				EnableFiberSafeOptimizations="TRUE"
+				OptimizeForProcessor="0"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)=DX_Include&quot;;./;./Common;./Meshs;./Workspace;./Dxframe;./DxCommon;./DxCommon9;./DxOctree;./DxEffect;./DxEffect/Single;./GUInterface;&quot;./G-Logic&quot;;./NaviMesh;../EngineSoundLib/DxSound;./DxEffect/Char;./DxEffect/EffAni;./DxEffect/EffProj;./DxEffect/EffKeep;../RanClientLib/Interface;../Vorbislib;&quot;../=Include&quot;;&quot;../=zlib&quot;;&quot;../RanClientLib/G-Logic&quot;;../netclientLib;../MfcExLib;../MfcExLib/ExLibs"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;KR_PARAM;RELEASE_A"
+				StringPooling="TRUE"
+				MinimalRebuild="TRUE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				EnableFunctionLevelLinking="FALSE"
+				EnableEnhancedInstructionSet="0"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				WarningLevel="0"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"
+				CompileAs="2"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="..\_Lib\EngineLib_A.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1042"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
 	</Configurations>
 	<References>
 	</References>
@@ -583,6 +641,12 @@
 							<Tool
 								Name="VCCLCompilerTool"/>
 						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCLCompilerTool"/>
+						</FileConfiguration>
 					</File>
 					<File
 						RelativePath=".\Meshs\DxSkinMesh.h">
@@ -624,6 +688,12 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Release_Server|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCustomBuildTool"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
 							ExcludedFromBuild="TRUE">
 							<Tool
 								Name="VCCustomBuildTool"/>
@@ -673,6 +743,12 @@
 							<Tool
 								Name="VCCLCompilerTool"/>
 						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCLCompilerTool"/>
+						</FileConfiguration>
 					</File>
 					<File
 						RelativePath=".\Meshs\DxSkinMeshLoad.cpp">
@@ -714,6 +790,12 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Release_Server|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCLCompilerTool"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
 							ExcludedFromBuild="TRUE">
 							<Tool
 								Name="VCCLCompilerTool"/>
@@ -763,6 +845,12 @@
 							<Tool
 								Name="VCCLCompilerTool"/>
 						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCLCompilerTool"/>
+						</FileConfiguration>
 					</File>
 					<File
 						RelativePath="Meshs\SMeshContainer.h">
@@ -804,6 +892,12 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Release_Server|Win32"
+							ExcludedFromBuild="TRUE">
+							<Tool
+								Name="VCCustomBuildTool"/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Release_A_ALL|Win32"
 							ExcludedFromBuild="TRUE">
 							<Tool
 								Name="VCCustomBuildTool"/>
@@ -2551,6 +2645,12 @@
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCLCompilerTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath="Common\BinTree.h">
@@ -2592,6 +2692,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -2641,6 +2747,12 @@
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCLCompilerTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath=".\Common\BitSet.h">
@@ -2682,6 +2794,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -2731,6 +2849,12 @@
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath=".\Common\CBitArray2d.h">
@@ -2772,6 +2896,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -2821,6 +2951,12 @@
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath="Common\CListEx.h">
@@ -2862,6 +2998,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -2911,6 +3053,12 @@
 						<Tool
 							Name="VCCLCompilerTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCLCompilerTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath="Common\CSpreadSheet.h">
@@ -2952,6 +3100,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -3001,6 +3155,12 @@
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath="Common\OutPutStream.cpp">
@@ -3042,6 +3202,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCLCompilerTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCLCompilerTool"/>
@@ -3091,6 +3257,12 @@
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath=".\Common\VMemPool.h">
@@ -3132,6 +3304,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32"
+						ExcludedFromBuild="TRUE">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32"
 						ExcludedFromBuild="TRUE">
 						<Tool
 							Name="VCCustomBuildTool"/>
@@ -3214,6 +3392,12 @@
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
 				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\DxCommon9\dxstdafx.h">
@@ -3258,6 +3442,12 @@
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release_Server|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
@@ -3310,6 +3500,12 @@
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
 				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\DxCommon9\DXUTenum.h">
@@ -3354,6 +3550,12 @@
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release_Server|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
@@ -3406,6 +3608,12 @@
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
 				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\DxCommon9\DXUTMesh.h">
@@ -3454,6 +3662,12 @@
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
 				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\DxCommon9\DXUTmisc.h">
@@ -3498,6 +3712,12 @@
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release_Server|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release_A_ALL|Win32">
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"/>
@@ -3756,6 +3976,12 @@
 			</FileConfiguration>
 			<FileConfiguration
 				Name="Release_Server|Win32">
+				<Tool
+					Name="VCCLCompilerTool"
+					UsePrecompiledHeader="1"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release_A_ALL|Win32">
 				<Tool
 					Name="VCCLCompilerTool"
 					UsePrecompiledHeader="1"/>
