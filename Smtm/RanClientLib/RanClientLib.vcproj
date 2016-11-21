@@ -355,6 +355,56 @@
 			<Tool
 				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
 		</Configuration>
+		<Configuration
+			Name="Release_A_ALL|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				OmitFramePointers="TRUE"
+				EnableFiberSafeOptimizations="TRUE"
+				OptimizeForProcessor="0"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)=DX_Include&quot;;&quot;$(SolutionDir)RanClientLib&quot;;&quot;$(SolutionDir)RanClientLib/Interface&quot;;&quot;$(SolutionDir)RanClientLib/G-Logic&quot;;&quot;$(SolutionDir)netclientLib&quot;;&quot;$(SolutionDir)netserverLib&quot;;&quot;$(SolutionDir)enginelib/&quot;;&quot;$(SolutionDir)enginelib/DxEffect/Single/&quot;;&quot;$(SolutionDir)enginelib/Common&quot;;&quot;$(SolutionDir)enginelib/Meshs&quot;;&quot;$(SolutionDir)enginelib/Workspace&quot;;&quot;$(SolutionDir)enginelib/Dxframe&quot;;&quot;$(SolutionDir)enginelib/DxCommon9&quot;;&quot;$(SolutionDir)enginelib/DxCommon&quot;;&quot;$(SolutionDir)enginelib/DxOctree&quot;;&quot;$(SolutionDir)enginelib/DxEffect&quot;;&quot;$(SolutionDir)enginelib/DxEffect/EffAni&quot;;&quot;$(SolutionDir)enginelib/G-Logic&quot;;&quot;$(SolutionDir)enginelib/NaviMesh&quot;;&quot;$(SolutionDir)EngineSoundLib/&quot;;&quot;$(SolutionDir)EngineSoundLib/DxSound&quot;;&quot;$(SolutionDir)=Include&quot;;../enginelib/DxEffect/EffProj;&quot;$(SolutionDir)MfcExLib/&quot;;../enginelib/DxEffect/Char;../enginelib/DxEffect/EffKeep;../Vorbislib;../SQL/Include;./NpcTalk;&quot;$(SolutionDir)=DaumCrypt&quot;;&quot;../=zlib&quot;;&quot;$(SolutionDir)MfcExLib/ExLibs&quot;;&quot;$(SolutionDir)/=TbbLib/include&quot;"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;KR_PARAM;RELEASE_A"
+				StringPooling="TRUE"
+				MinimalRebuild="TRUE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				EnableFunctionLevelLinking="FALSE"
+				EnableEnhancedInstructionSet="0"
+				UsePrecompiledHeader="2"
+				WarningLevel="0"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="..\_Lib\RanClientLib_A.lib"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
 	</Configurations>
 	<References>
 	</References>
@@ -684,6 +734,11 @@
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
 				</File>
 				<File
 					RelativePath=".\G-Logic\GLAutoLevelMan.cpp">
@@ -722,6 +777,11 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32">
+						<Tool
+							Name="VCCustomBuildTool"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32">
 						<Tool
 							Name="VCCustomBuildTool"/>
 					</FileConfiguration>
@@ -778,6 +838,12 @@
 					</FileConfiguration>
 					<FileConfiguration
 						Name="Release_Server|Win32">
+						<Tool
+							Name="VCCLCompilerTool"
+							ObjectFile="$(IntDir)/$(InputName)1.obj"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_A_ALL|Win32">
 						<Tool
 							Name="VCCLCompilerTool"
 							ObjectFile="$(IntDir)/$(InputName)1.obj"/>
@@ -1400,6 +1466,12 @@
 			</FileConfiguration>
 			<FileConfiguration
 				Name="Release_Server|Win32">
+				<Tool
+					Name="VCCLCompilerTool"
+					UsePrecompiledHeader="1"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release_A_ALL|Win32">
 				<Tool
 					Name="VCCLCompilerTool"
 					UsePrecompiledHeader="1"/>
