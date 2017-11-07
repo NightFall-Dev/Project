@@ -1,1 +1,30 @@
+//add class "SCIENCE"
 
+SCIENCE
+
+//add class "ASSASSIN"
+
+ASSASSIN
+
+//add class "MAGICIAN"
+
+MAGICIAN
+
+//add class "SCIENCE", "ASSASSIN", "MAGICIAN"
+
+GLDefine.h
+
+for( int i=0; i<GLCI_NUM_2012; ++i )
+
+GLCI_NUM_2012
+
+ITEMEDIT
+NPCACTION
+QUESTEDIT
+
+11:25 AM 11/20/2016
+RanClientUILib->Interface->NewCreateCharEnum.h <-- DONE -->
+RanClientUILib->Interface->SelectClassPage.cpp <--	-->
+
+#include "../enginelib/Crypt.h"
+#include "stdafx.h" -> #include "../stdafx.h"
